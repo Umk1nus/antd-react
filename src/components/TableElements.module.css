@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__search {
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header__search {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
